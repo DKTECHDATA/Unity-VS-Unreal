@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity vs Unreal Engine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Unity vs Unreal Engine</h1>
+    </header>
+    <main>
+        <div class="images">
+            
+            <img src="data:image/png;base64,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" alt="TD SYNNEX" class="engine-logo">
+        </div>
+        
+        <section class="detailed-comparison">
+            <h2>Detailed Comparison</h2>
+            <h3>1. Pricing</h3>
+            <p><strong>Unity:</strong> Unity offers a subscription model (Unity Pro) with no royalties, which means developers can budget their costs effectively without worrying about additional fees based on their game's success. This is particularly advantageous for small teams and independent developers who may have limited financial resources. The absence of royalties allows developers to retain more of their revenue, making Unity a financially attractive option.</p>
+            <p><strong>Unreal Engine:</strong> While Unreal Engine is free to use initially, it imposes a 5% royalty on gross revenue after the first $1 million per product. This can lead to significant costs for successful projects, making financial planning more complex. For developers who anticipate high sales, this royalty model can become a burden, making Unity a more predictable and cost-effective choice.</p>
+
+            <h3>2. Ease of Use</h3>
+            <p><strong>Unity:</strong> Unity is renowned for its user-friendly interface and intuitive design. The learning curve is gentle, making it accessible for beginners and smaller teams. The drag-and-drop functionality and visual scripting options allow developers to create games without extensive programming knowledge. This ease of use accelerates the development process, enabling teams to focus on creativity rather than technical hurdles.</p>
+            <p><strong>Unreal Engine:</strong> Unreal Engine, while powerful, has a steeper learning curve, especially for those unfamiliar with C++. The complexity of its interface and tools can be daunting for newcomers. This can lead to longer onboarding times and may discourage less experienced developers from fully utilizing its capabilities.</p>
+
+            <h3>3. Graphics and Visual Quality</h3>
+            <p><strong>Unity:</strong> Unity provides a flexible graphics engine that supports a variety of visual styles, including 2D and mobile graphics. Developers can achieve high-quality visuals without the need for extensive resources or expertise. The ability to customize graphics settings allows for optimization across different platforms, making it easier to create visually appealing games that run smoothly on a range of devices.</p>
+            <p><strong>Unreal Engine:</strong> Unreal Engine is known for its stunning graphics and high-fidelity visuals, which are ideal for AAA games. However, achieving similar results in Unity can be more straightforward and less resource-intensive. Unity's flexibility in visual styles allows developers to experiment and find the best fit for their projects without being constrained by high-end hardware requirements.</p>
+
+            <h3>4. Performance</h3>
+            <p><strong>Unity:</strong> Unity generally performs well across a wide range of platforms, particularly for mobile games. Its architecture is optimized for performance, allowing developers to create games that run efficiently on various devices. The ability to fine-tune performance settings ensures that games can be optimized for different hardware specifications, making Unity a versatile choice for developers targeting multiple platforms.</p>
+            <p><strong>Unreal Engine:</strong> While Unreal Engine excels in high-end graphics, it often requires more powerful hardware for optimal performance. This can limit the accessibility of games developed with Unreal, particularly for mobile and lower-end devices. Unity's performance optimization capabilities make it a more adaptable choice for developers looking to reach a broader audience.</p>
+
+            <h3>5. Asset Store and Marketplace</h3>
+            <p><strong>Unity:</strong> Unity features a vast and diverse Asset Store, providing a wide range of assets, tools, and plugins that facilitate easier and faster development. Developers can find pre-made assets, scripts, and tools that can significantly reduce development time and costs. The extensive selection allows for greater creativity and customization, enabling developers to enhance their projects without extensive custom development.</p>
+            <p><strong>Unreal Engine:</strong> Unreal Engine has a Marketplace, but the selection may not be as extensive or varied as Unity's Asset Store. This can limit developers' options when looking for specific assets or tools, potentially slowing down the development process.</p>
+
+            <h3>6. Community and Support</h3>
+            <p><strong>Unity:</strong> Unity boasts a large and active community, with extensive documentation, tutorials, and forums that provide robust support for developers at all levels. The wealth of resources available makes it easier for developers to find solutions to their problems and learn new skills. This strong community support fosters collaboration and knowledge sharing, enhancing the overall development experience.</p>
+            <p><strong>Unreal Engine:</strong> While Unreal Engine has a strong community, it may not offer the same breadth of beginner-friendly resources as Unity. New developers may find it more challenging to access the information they need to get started, which can hinder their progress.</p>
+
+            <h3>7. Cross-Platform Development</h3>
+            <p><strong>Unity:</strong> Unity excels in cross-platform support, allowing developers to easily deploy games on various platforms, including mobile, desktop, and consoles. The streamlined process for deploying games across multiple devices simplifies the development workflow and enables developers to reach a wider audience without extensive rework.</p>
+            <p><strong>Unreal Engine:</strong> While Unreal Engine supports cross-platform development, it may require more configuration and setup, making Unity a more straightforward choice for developers looking to publish on multiple platforms.</p>
+
+            <h3>8. 2D Game Development</h3>
+            <p><strong>Unity:</strong> Unity offers robust tools and features specifically designed for 2D game development, making it the preferred choice for developers focusing on 2D projects. The dedicated 2D tools streamline the development process, allowing for greater efficiency and creativity in creating 2D games.</p>
+            <p><strong>Unreal Engine:</strong> Unreal Engine primarily focuses on 3D game development, and while it can support 2D, it is not as efficient or user-friendly for 2D projects as Unity. Developers looking to create 2D games may find Unity's tools more suitable for their needs.</p>
+        </section>
+
+        <section class="conclusion">
+            <h2>Conclusion</h2>
+            <p>Unity is a better choice for customers due to its cost-effectiveness, ease of use, flexibility in graphics and performance, extensive asset resources, strong community support, and robust cross-platform capabilities. These advantages make Unity an ideal option for developers, particularly those working on smaller projects, indie games, or who are new to game development. The combination of these factors positions Unity as a more accessible and versatile game development platform compared to Unreal Engine.</p>
+        </section>
+
+        <h2>Unity vs Unreal Technical Aspects</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Unity</th>
+                    <th>Unreal Engine</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Programming Languages</td>
+                    <td>Uses C#</td>
+                    <td>Primarily uses C++</td>
+                </tr>
+                <tr>
+                    <td>Visual Scripting</td>
+                    <td>Tools like Bolt (now integrated)</td>
+                    <td>Features Blueprint</td>
+                </tr>
+                <tr>
+                    <td>Graphics Rendering</td>
+                    <td>Good, may require additional plugins for high-end graphics</td>
+                    <td>Superior, real-time ray tracing</td>
+                </tr>
+                <tr>
+                    <td>Asset Store</td>
+                    <td>Extensive Asset Store</td>
+                    <td>Marketplace available but less extensive</td>
+                </tr>
+                <tr>
+                    <td>Cross-Platform Support</td>
+                    <td>Supports over 25 platforms</td>
+                    <td>Supports multiple platforms; more optimization for mobile required</td>
+                </tr>
+                <tr>
+                    <td>2D Game Development</td>
+                    <td>Strong support with dedicated tools</td>
+                    <td>Primarily focused on 3D</td>
+                </tr>
+                <tr>
+                    <td>3D Game Development</td>
+                    <td>Excellent for small and medium-sized projects</td>
+                    <td>Best suited for high-end and AAA games</td>
+                </tr>
+                <tr>
+                    <td>Physics Engine</td>
+                    <td>Uses NVIDIA PhysX</td>
+                    <td>Uses PhysX, more advanced features</td>
+                </tr>
+                <tr>
+                    <td>Animation System</td>
+                    <td>Animator component with state machines and blend trees</td>
+                    <td>Advanced tools with state machines, blend spaces, control rigs</td>
+                </tr>
+                <tr>
+                    <td>User Interface (UI) Tools</td>
+                    <td>UI Toolkit and UGUI</td>
+                    <td>UMG (Unreal Motion Graphics)</td>
+                </tr>
+                <tr>
+                    <td>Networking</td>
+                    <td>Built-in solutions, may require third-party tools</td>
+                    <td>Comprehensive built-in support</td>
+                </tr>
+                <tr>
+                    <td>Performance Optimization</td>
+                    <td>Various optimization tools, may require manual adjustments</td>
+                    <td>Advanced profiling tools</td>
+                </tr>
+                <tr>
+                    <td>Asset Management</td>
+                    <td>Simple with drag-and-drop functionality</td>
+                    <td>Complex with focus on organization and version control</td>
+                </tr>
+                <tr>
+                    <td>Documentation and Learning Resources</td>
+                    <td>Extensive documentation and large community</td>
+                    <td>Comprehensive documentation, focus on advanced features</td>
+                </tr>
+                <tr>
+                    <td>Community Support</td>
+                    <td>Large community with extensive resources</td>
+                    <td>Strong community support for high-end graphics and AAA development</td>
+                </tr>
+                <tr>
+                    <td>Virtual Reality (VR) Support</td>
+                    <td>Strong support with various SDKs</td>
+                    <td>Excellent built-in support</td>
+                </tr>
+                <tr>
+                    <td>Augmented Reality (AR) Support</td>
+                    <td>Leading platform with AR Foundation</td>
+                    <td>Supports AR development but less commonly used</td>
+                </tr>
+                <tr>
+                    <td>Asset Importing</td>
+                    <td>Supports a wide range of file formats</td>
+                    <td>Supports various formats but may require more setup</td>
+                </tr>
+                <tr>
+                    <td>Shader Development</td>
+                    <td>Shader Graph for visual creation</td>
+                    <td>Powerful material editor</td>
+                </tr>
+                <tr>
+                    <td>Lighting Techniques</td>
+                    <td>Supports baked and real-time lighting; may require plugins</td>
+                    <td>Advanced techniques including dynamic lighting</td>
+                </tr>
+                <tr>
+                    <td>Post-Processing Effects</td>
+                    <td>Post-processing stack available</td>
+                    <td>Built-in with high customization</td>
+                </tr>
+                <tr>
+                    <td>Terrain Tools</td>
+                    <td>Basic tools available</td>
+                    <td>Advanced editing tools</td>
+                </tr>
+                <tr>
+                    <td>Version Control</td>
+                    <td>Integrates with systems but requires setup</td>
+                    <td>Built-in support with Perforce</td>
+                </tr>
+                <tr>
+                    <td>Build Size</td>
+                    <td>Generally smaller for mobile games</td>
+                    <td>Larger due to high-quality assets</td>
+                </tr>
+                <tr>
+                    <td>Asset Duplication</td>
+                    <td>Simple process</td>
+                    <td>More complex with instance management options</td>
+                </tr>
+                <tr>
+                    <td>Scene Management</td>
+                    <td>Straightforward with hierarchy view</td>
+                    <td>More complex with levels and sub-levels</td>
+                </tr>
+                <tr>
+                    <td>Scripting API</td>
+                    <td>Extensive API, focus on flexibility</td>
+                    <td>Powerful API, focus on performance and control</td>
+                </tr>
+                <tr>
+                    <td>Debugging Tools</td>
+                    <td>Built-in tools, may require plugins for advanced features</td>
+                    <td>Advanced tools for analysis and profiling</td>
+                </tr>
+                <tr>
+                    <td>Localization Support</td>
+                    <td>Supports localization; may require setup</td>
+                    <td>Built-in tools for localization</td>
+                </tr>
+                <tr>
+                    <td>Cloud Services</td>
+                    <td>Unity Cloud Build and other services</td>
+                    <td>Integrates with various services, less focused on cloud</td>
+                </tr>
+                <tr>
+                    <td>Mobile Development</td>
+                    <td>Strong with optimized tools</td>
+                    <td>Supports mobile, may require more optimization</td>
+                </tr>
+                <tr>
+                    <td>Support for 3D Models</td>
+                    <td>Supports common formats like FBX and OBJ</td>
+                    <td>Supports various formats, specific requirements for performance</td>
+                </tr>
+                <tr>
+                    <td>Audio Management</td>
+                    <td>Built-in tools with various formats supported</td>
+                    <td>Advanced engine with spatial audio</td>
+                </tr>
+                <tr>
+                    <td>Custom Editor Tools</td>
+                    <td>Allows creation of custom tools</td>
+                    <td>Supports custom tools, may require advanced skills</td>
+                </tr>
+                <tr>
+                    <td>Mobile Performance</td>
+                    <td>Better optimized for mobile</td>
+                    <td>Requires powerful hardware</td>
+                </tr>
+                <tr>
+                    <td>Game Monetization</td>
+                    <td>Various options including ads and in-app purchases</td>
+                    <td>Supports monetization, less focused on mobile</td>
+                </tr>
+                <tr>
+                    <td>Custom Shaders</td>
+                    <td>Supports custom shaders through Shader Graph and code</td>
+                    <td>Powerful material editor for complex shaders</td>
+                </tr>
+                <tr>
+                    <td>Real-Time Collaboration</td>
+                    <td>Unity Collaborate</td>
+                    <td>Multi-user editing</td>
+                </tr>
+                <tr>
+                    <td>Game Templates</td>
+                    <td>Provides various templates</td>
+                    <td>Offers starter templates</td>
+                </tr>
+                <tr>
+                    <td>Learning Curve</td>
+                    <td>Easier for beginners</td>
+                    <td>Steeper due to advanced features</td>
+                </tr>
+                <tr>
+                    <td>Community Resources</td>
+                    <td>Extensive resources</td>
+                    <td>Strong support for high-end graphics</td>
+                </tr>
+                <tr>
+                    <td>Game Modes</td>
+                    <td>Supports various modes, requires manual setup</td>
+                    <td>Built-in support</td>
+                </tr>
+                <tr>
+                    <td>User Experience Design</td>
+                    <td>Tools for user-friendly interfaces</td>
+                    <td>Advanced UI design tools</td>
+                </tr>
+                <tr>
+                    <td>Version Updates</td>
+                    <td>Regular updates</td>
+                    <td>Frequent updates with focus on performance and graphics</td>
+                </tr>
+                <tr>
+                    <td>Integration with Other Tools</td>
+                    <td>Integrates with various tools and services</td>
+                    <td>Integrates with many tools, may require setup</td>
+                </tr>
+                <tr>
+                    <td>Game Analytics</td>
+                    <td>Built-in tools</td>
+                    <td>Supports analytics, may require third-party solutions</td>
+                </tr>
+                <tr>
+                    <td>Support for Multiplayer Games</td>
+                    <td>Basic support, may require third-party solutions</td>
+                    <td>Strong built-in support</td>
+                </tr>
+                <tr>
+                    <td>Game Testing Tools</td>
+                    <td>Various testing tools, may require setup</td>
+                    <td>Advanced tools for analysis</td>
+                </tr>
+                <tr>
+                    <td>Customizable Workflows</td>
+                    <td>Allows customizable workflows</td>
+                    <td>Supports customizable workflows, may require setup</td>
+                </tr>
+                <tr>
+                    <td>Integration with VR/AR SDKs</td>
+                    <td>Strong integration with VR/AR SDKs</td>
+                    <td>Supports VR/AR, less commonly used for AR</td>
+                </tr>
+                <tr>
+                    <td>Rendering Pipeline</td>
+                    <td>Built-in and Universal Render Pipeline</td>
+                    <td>Single powerful rendering pipeline</td>
+                </tr>
+                <tr>
+                    <td>Scene Lighting</td>
+                    <td>Baked and mixed lighting, requires adjustments</td>
+                    <td>Dynamic lighting and advanced illumination</td>
+                </tr>
+                <tr>
+                    <td>Particle Systems</td>
+                    <td>Shuriken system for effects</td>
+                    <td>Cascade and Niagara systems</td>
+                </tr>
+                <tr>
+                    <td>Asset Streaming</td>
+                    <td>Limited, requires manual management</td>
+                    <td>Advanced streaming for large open-world games</td>
+                </tr>
+                <tr>
+                    <td>Material Editor</td>
+                    <td>Shader Graph, less powerful</td>
+                    <td>Highly advanced material editor</td>
+                </tr>
+                <tr>
+                    <td>Mobile Optimization Tools</td>
+                    <td>Tools for optimizing mobile</td>
+                    <td>Manual optimization, larger builds</td>
+                </tr>
+                <tr>
+                    <td>Scripting Performance</td>
+                    <td>Managed code, performance overhead</td>
+                    <td>C++ offers better performance</td>
+                </tr>
+                <tr>
+                    <td>Game Physics</td>
+                    <td>Basic, suitable for most games</td>
+                    <td>Advanced, including destructible environments</td>
+                </tr>
+                <tr>
+                    <td>Support for Large Teams</td>
+                    <td>Collaboration tools available</td>
+                    <td>Built-in support for large teams</td>
+                </tr>
+                <tr>
+                    <td>Custom Asset Importers</td>
+                    <td>Allows custom importers</td>
+                    <td>Supports custom importers</td>
+                </tr>
+                <tr>
+                    <td>Memory Management</td>
+                    <td>Automatic garbage collection</td>
+                    <td>Manual management</td>
+                </tr>
+                <tr>
+                    <td>Game Distribution</td>
+                    <td>Simplified process across platforms</td>
+                    <td>More complex, especially for consoles</td>
+                </tr>
+                <tr>
+                    <td>Support for Legacy Projects</td>
+                    <td>Regular updates, may require adjustments</td>
+                    <td>Maintains backward compatibility</td>
+                </tr>
+                <tr>
+                    <td>Customizable User Interface</td>
+                    <td>Customizable editor interface</td>
+                    <td>Customizable, may require advanced setup</td>
+                </tr>
+                <tr>
+                    <td>Support for Non-Gaming Applications</td>
+                    <td>Used in education, architecture, simulation</td>
+                    <td>Primarily gaming, also film and architecture</td>
+                </tr>
+                <tr>
+                    <td>Integration with AI Tools</td>
+                    <td>Supports various AI tools</td>
+                    <td>Built-in AI features</td>
+                </tr>
+                <tr>
+                    <td>Support for Cinematic Production</td>
+                    <td>Tools for cinematic experiences</td>
+                    <td>Focus on cinematic production</td>
+                </tr>
+                <tr>
+                    <td>Game Design Patterns</td>
+                    <td>Supports, may require implementation</td>
+                    <td>Built-in support</td>
+                </tr>
+                <tr>
+                    <td>Support for Localization</td>
+                    <td>Basic, may require setup</td>
+                    <td>Advanced tools</td>
+                </tr>
+                <tr>
+                    <td>Support for Cloud Gaming</td>
+                    <td>Integrates with services</td>
+                    <td>Supports, may require setup</td>
+                </tr>
+                <tr>
+                    <td>Support for Live Operations</td>
+                    <td>Tools for live operations</td>
+                    <td>Supports, may require manual management</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <section class="key-differences">
+            <h2>Key Differences</h2>
+            <p><strong>Multiplatform Support:</strong> Unity excels in multiplatform support, allowing developers to create a game once and deploy it across more than 25 platforms, including consoles, mobile devices, and PCs. This flexibility is a significant advantage for developers looking to reach a broader audience.</p>
+            <p><strong>WebGL Support:</strong> Unity provides robust support for WebGL, enabling developers to create interactive web applications and games that run directly in web browsers without the need for plugins. This capability is essential for reaching users on various devices through the web.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; dinesh.k@techdata.com</p>
+        <p><a href="https://unity.com/solutions/multiplatform" target="_blank">Visit Unity Industry Website</a></p>
+    </footer>
+</body>
+</html>
